@@ -1,6 +1,10 @@
-const { getThreadsProfile } = require('./threads.js');
+const { getThreadsProfile, getUserThreads } = require('./threads.js');
 
 (async() => {
-  const user = await getThreadsProfile('rampcapitalllc');
-  console.log(user)
+  const user = await getThreadsProfile('zuck');
+  const threads = await getUserThreads('zuck');
+  console.log(
+    user,
+    threads
+  )
 })();
