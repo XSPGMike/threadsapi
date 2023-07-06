@@ -112,7 +112,7 @@ async function getUserThreads(handle) {
   });
   try {
     const data = await response.json();
-    return data
+    return data.data.mediaData.threads
   } catch(e) {
     console.error(e);
   }
