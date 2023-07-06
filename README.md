@@ -1,4 +1,4 @@
-https://threads.net API to retrieve threads and post threads from scripts.
+https://threads.net API to retrieve profile and threads from scripts.
 
 currently only commonjs.
 
