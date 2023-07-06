@@ -4,7 +4,7 @@ currently only commonjs.
 
 Usage:
 ```js
-const { getThreadsProfile, getUserThreads } from "./threads.js";
+const { getThreadsProfile, getUserThreads } = require("./threads.js");
 (async() => {
   const user = await getThreadsProfile('zuck'); // profile metadata
   const threads = await getUserThreads('zuck'); // actual threads
